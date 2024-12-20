@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #150b3e;
+  width: 40vw;
+  padding: 50px;
+  color: white;
+  border-radius: 20px;
+  margin: 20px;
+}
+.profile-card {
+  display: flex;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 17px 23px;
+  border-radius: 30px;
+}
+.profile-name {
+  font-size: 15px;
+  color: #c7d2fe;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance-count {
+  color: #585076;
+  
+}
+.your-balance {
+  color: #585076;
+  font-size: 25px;
+}
+.balance {
+  color: #c7d2fe;
+}
+.withdraw {
+  color: #c7d2fe;
+  font-size: 20px;
+}
+.choose-amount {
+  color: #585076;
+  font-size: 13px;
+}
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
